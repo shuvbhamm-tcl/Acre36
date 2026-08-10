@@ -53,8 +53,11 @@ h1,h2,h3,h4{
   font-weight:500;
   line-height:1.12;
   margin:0;
-  color:var(--forest) !important;
+  color:var(--forest);
   letter-spacing:-0.01em;
+}
+.report-card h3{
+     color:var(--forest) !important;
 }
 p{ margin:0; }
 
