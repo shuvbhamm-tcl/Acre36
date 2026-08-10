@@ -130,7 +130,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .btn-ghost{
   color:var(--forest);
   padding:13px 24px;
-  border-bottom:1px solid var(--forest);
+  border:1px solid var(--forest);
   border: radius 50px;;
 }
 .btn-ghost.on-dark{ color:var(--cream); border-color:var(--hairline-dark); }
@@ -386,6 +386,8 @@ section{ position:relative; }
 @media (max-width:640px){
   .hero{ min-height:calc(92svh - 76px); align-items:flex-end; }
   .hero-photo-credit{ display:none; }
+  .heroText{text-align: left;}
+  .hero-content{align-items:start; padding-bottom: 50px;}
 }
 
 /* ---- Stat strip (directly under hero) ---- */
